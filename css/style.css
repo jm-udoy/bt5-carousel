@@ -1,0 +1,48 @@
+
+.head-color{
+	color: blueviolet;
+}
+
+.mar-tb{
+	margin: 20px 0;
+}
+
+.bg-cus-purple{
+	color: white;
+	background-color: blueviolet;
+}
+
+
+.custom_ind [data-bs-target] {
+    
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    
+}
+
+.c_prev, .c_next {
+    top: 85%;
+    
+}
+
+.c_prev {
+    left: 76%;
+}
+
+
+.custom_indicators [data-bs-target] {
+    width: 15px !important; 
+    height: 15px !important;
+    border-radius: 50% !important;
+}
+
+
+.custom_indicators {
+    right: 61% !important;
+    bottom: 88% !important;
+    display: block !important;
+    margin-right: 25% !important;
+    margin-left: 4% !important;
+    
+}

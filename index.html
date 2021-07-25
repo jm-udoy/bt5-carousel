@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS links -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>BT5 Carousel</title>
+  </head>
+  <body>
+
+    <div class="container">
+    
+    <!-- heading start -->
+      <p class="display-6 text-center head-color" >Bootstrap v5 Carousel</p>
+    <!-- heading end -->
+
+    <!-- Carousel start -->
+
+    <!-- carouse 01 start -->
+    <p class="fs-4 head-color mar-tb">Carousel slides only:</p>
+
+    <div id="cid1" class="carousel slide" data-bs-ride="carousel">
+      <!-- inner start -->
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <img src="images/c1_s1.jpg" class="d-block w-100" alt="Example image for slider">
+        </div>
+        <div class="carousel-item">
+          <img src="images/c1_s2.jpg" class="d-block w-100" alt="Example image for slider">
+        </div>
+        <div class="carousel-item">
+          <img src="images/c1_s3.jpg" class="d-block w-100" alt="Example image for slider">
+        </div>
+
+      </div>
+      <!-- inner end -->
+    </div>
+    <!-- carouse 01 end -->
+
+    <!-- carouse 02 start -->
+    <p class="fs-4 head-color mar-tb">Carousel with controls and custom indicators:</p>
+
+    <div id="cid2" class="carousel slide" data-bs-ride="carousel">
+      <!-- indicators -->
+      <div class="carousel-indicators custom_ind">
+        <!-- <button class="roundBtn"></button> -->
+        <button type="button" data-bs-target="#cid2" data-bs-slide-to="0"  aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#cid2" data-bs-slide-to="1"  class="active" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#cid2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <!-- inner -->
+      <div class="carousel-inner">
+        <div class="carousel-item ">
+          <img src="images/c1_s1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item active">
+          <img src="images/c1_s2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/c1_s3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <!-- buttons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#cid2" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#cid2" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- carouse 02 end -->
+
+
+    <!-- carouse 03 start -->
+    <p class="fs-4 head-color mar-tb">Carousel custom:</p>
+
+    <div id="cid3" class="carousel slide" data-bs-ride="carousel">
+      <!-- indicators -->
+      <div class="carousel-indicators custom_indicators">
+        <button type="button" data-bs-target="#cid3" data-bs-slide-to="0"  aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#cid3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#cid3" data-bs-slide-to="2" class="active" aria-label="Slide 3"></button>
+      </div>
+      <!-- inner -->
+      <div class="carousel-inner">
+        <div class="carousel-item ">
+          <img src="images/c1_s1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/c1_s2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <img src="images/c1_s3.jpg." class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev c_prev" type="button" data-bs-target="#cid3" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next c_next" type="button" data-bs-target="#cid3" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- carouse 03 end -->
+
+    <!-- Carousel end -->
+
+
+    <!-- JS links -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script> 
+  </body>
+</html>
